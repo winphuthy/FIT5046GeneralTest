@@ -18,24 +18,31 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
 
 //        Button TestButton = findViewById(R.id.Btn);
 
 //        TestButton.setOnClickListener(view -> TestButton.setText("Hello!"));
 
+
+/*      week2
         binding = ActivityMainBinding.inflate(getLayoutInflater());
 
         View view = binding.getRoot();
 
         setContentView(view);
 
-        binding.Btn.setOnClickListener(new View.OnClickListener() {
+        binding.editMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 //                binding.editMessage.setText("Hello");
             }
-        });
+        });*/
+
+        //week3
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        View view = binding.getRoot();
+        setContentView(view);
 
     }
 }
